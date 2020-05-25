@@ -1,0 +1,38 @@
+body {
+    background-color: black;
+}
+main {
+    text-align: center;
+}
+p {
+    color: white;
+    border: 3px solid;
+    display: inline-block;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.no-transition:hover {
+    background-color: white;
+    color: black;
+    border-color: white;
+}
+.transition:hover {
+    background-color: white;
+    color: black;
+    border-color: white;
+    transition: 1s;
+}
+.enlarge:hover {
+    background-color: white;
+    color: black;
+    border-color: white;
+    transition: 1s;
+    transform: scale(1.5);
+}
+.move-right:hover {
+    background-color: white;
+    color: black;
+    border-color: white;
+    transition: 1s;
+    transform: translate(100px, 0px);
+}
